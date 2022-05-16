@@ -1,0 +1,16 @@
+[package]
+name = "reckoning"
+version = "0.1.0"
+edition = "2021"
+rust = "1.62.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = { version = "0.8.0", features = ["dynamic"] }
+bevy_ecs_ldtk = { git = "https://github.com/Trouv/bevy_ecs_ldtk" , rev = "8bd7abf" }
+float-ord = "0.3.0"
+iyes_loopless = "0.7.0"
+
+[features]
+debug = []
